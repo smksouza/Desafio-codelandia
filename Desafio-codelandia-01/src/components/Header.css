@@ -1,8 +1,59 @@
 header {
-  background: var(--linear);
+  background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
   width: 100%;
   padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 56.25rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h2 {
+  font-family: Lexend Deca;
+  color: #fff;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.search {
+  margin-top: 4.56rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.search svg {
+  height: 1.875rem;
+  width: 1.875rem;
+  margin: 0 1.06rem;
+}
+
+.search input {
+  padding: 1.31rem 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+}
+
+.search input::placeholder {
+  font-family: Inter;
+  color: white;
+  opacity: 0.5;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
